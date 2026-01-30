@@ -1,15 +1,10 @@
 ---
-title: Books
-description: Listing of textbooks and recommended readings for the course.
-nav_order: 5
+title: Selected Projects
+description: Examples of standout work across recent offerings
+nav_order: 3
 #nav_exclude: true
 
 ---
-
-# Primary textbooks
-- [M1] [Probabilistic Machine Learning: An Introduction](https://probml.github.io/pml-book/book1.html), Kevin Murphy, MIT Press, 2022.
-- [M2] [Probabilistic Machine Learning: Advanced Topics](https://probml.github.io/pml-book/book2.html), Kevin Murphy, MIT Press, 2023.
-
 # Other recommended reading
 
 - [Ba] [Learning Theory from First Principles](https://www.di.ens.fr/~fbach/ltfp_book.pdf) Bach, 2025.
