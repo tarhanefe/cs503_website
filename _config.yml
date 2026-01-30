@@ -24,8 +24,8 @@ email: 6.790-website@mit.edu
 description: "Graduate Machine Learning Course, MIT EECS, Fall 2025."
 # logo: "/assets/images/790-txt.png"
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gradml.mit.edu" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/cs503_website" # the subpath of your site, e.g. /blog
+url: "https://tarhanefe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # remote_theme: "just-the-docs"
