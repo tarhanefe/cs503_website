@@ -106,7 +106,7 @@ Examples of standout work across recent offerings
   
   <a href="https://tarhanefe.github.io/CLIPasso3DWebsite/" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="{{site.baseurl}}/assets/images/projects/clipasso3d.png" alt="CLIPasso 3D" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler1.png" alt="CLIPasso 3D" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">From Pixels to Wireframes</div>
@@ -118,7 +118,7 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-robust-multimodal" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="{{site.baseurl}}/assets/images/projects/filler1.png" alt="Robust Multimodal" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler2.png" alt="Robust Multimodal" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Robust Multimodal Retrieval</div>
