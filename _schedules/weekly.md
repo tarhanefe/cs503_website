@@ -24,9 +24,6 @@ timeline:
 - '7:00 PM'
 - '7:30 PM'
 - '8:00 PM'
-- '8:30 PM'
-- '9:00 PM'
-- '9:30 PM'
 
 schedule:
 - name: Mon

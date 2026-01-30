@@ -1,6 +1,6 @@
 ---
 name: Efe Tarhan
 email: efe.tarhan@epfl.ch
-role: Teaching Assistant
+role: Student Assistant
 photo: efe.jpg
 ---

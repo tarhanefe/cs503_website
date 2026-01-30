@@ -7,7 +7,7 @@ in_row: true
 ---
 
 
-# Instructors
+# Instructor
 {% if page.in_row %}
 <div class="staff-row">
 {% else %}
@@ -31,6 +31,23 @@ in_row: true
 <div>
 {% endif %}
 {% for staffer in teaching_assistants %}
+{{ staffer }}
+{% endfor %}
+</div>
+{% endif %}
+
+
+{% assign student_assistants = site.staffers | where: 'role', 'Student Assistant' %}
+{% assign num_student_assistants = student_assistants | size %}
+{% if num_student_assistants != 0 %}
+
+# Teaching Assistants
+{% if page.in_row %}
+<div class="staff-row">
+{% else %}
+<div>
+{% endif %}
+{% for staffer in student_assistants %}
 {{ staffer }}
 {% endfor %}
 </div>
