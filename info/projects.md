@@ -171,3 +171,71 @@ Examples of standout work across recent offerings
   </a>
 
 </div>
+
+
+## 2023
+
+<div class="project-list">
+
+  <a href="https://example.com/project-open-set" target="_blank" class="project-card">
+    <div class="project-image-container">
+      <img src="/assets/images/projects/openset.png" alt="Open Set" class="project-image">
+    </div>
+    <div class="project-content">
+      <div class="project-title-text">Open-Set Scene Detection</div>
+      <div class="project-desc-text">
+        Introduced uncertainty-aware prompts for vision transformers, improving detection of unseen classes in driving scenes.
+      </div>
+    </div>
+  </a>
+
+  <a href="https://example.com/project-human-motion" target="_blank" class="project-card">
+    <div class="project-image-container">
+      <img src="/assets/images/projects/motion.png" alt="Motion Synthesis" class="project-image">
+    </div>
+    <div class="project-content">
+      <div class="project-title-text">Text-to-Motion Synthesis</div>
+      <div class="project-desc-text">
+        Built a diffusion model that translates free-form text into physically plausible human motion clips with style control.
+      </div>
+    </div>
+  </a>
+
+  <a href="https://example.com/project-3d-recon" target="_blank" class="project-card">
+    <div class="project-image-container">
+      <img src="/assets/images/projects/recon.png" alt="3D Reconstruction" class="project-image">
+    </div>
+    <div class="project-content">
+      <div class="project-title-text">Few-Shot 3D Reconstruction</div>
+      <div class="project-desc-text">
+        Combined NeRF distillation with geometric priors to recover consistent meshes from as few as three posed images.
+      </div>
+    </div>
+  </a>
+
+  <a href="https://example.com/project-3d-recon" target="_blank" class="project-card">
+    <div class="project-image-container">
+      <img src="/assets/images/projects/recon.png" alt="3D Reconstruction" class="project-image">
+    </div>
+    <div class="project-content">
+      <div class="project-title-text">Few-Shot 3D Reconstruction</div>
+      <div class="project-desc-text">
+        Combined NeRF distillation with geometric priors to recover consistent meshes from as few as three posed images.
+      </div>
+    </div>
+  </a>
+
+  <a href="https://example.com/project-3d-recon" target="_blank" class="project-card">
+    <div class="project-image-container">
+      <img src="/assets/images/projects/recon.png" alt="3D Reconstruction" class="project-image">
+    </div>
+    <div class="project-content">
+      <div class="project-title-text">Few-Shot 3D Reconstruction</div>
+      <div class="project-desc-text">
+        Combined NeRF distillation with geometric priors to recover consistent meshes from as few as three posed images.
+      </div>
+    </div>
+  </a>
+  
+  
+</div>
