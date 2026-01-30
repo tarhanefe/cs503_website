@@ -66,6 +66,8 @@ nav_external_links:
     url: "/"
     hide_icon: true
 
+search_enabled: false
+
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
   date-format: "%d-%b-%Y"
@@ -144,22 +146,6 @@ defaults:
       type: announcements
     values:
       layout: announcement
-  - scope:
-      path: "supervised/"
-    values:
-      parent: Supervised Learning
-      layout: page
-      katex: true
-  - scope:
-      path: "reinforcement/"
-    values:
-      parent: Reinforcement Learning
-      layout: page
-  - scope:
-      path: "unsupervised/"
-    values:
-      parent: Unsupervised Learning
-      layout: page
   - scope:
       path: "info/"
     values:
