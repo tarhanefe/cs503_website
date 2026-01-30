@@ -13,7 +13,7 @@ has_toc: false
 
 <!-- <img src="/assets/images/790-txt.png" width="12%"> -->
 
-<h1 style="margin-bottom:-1em">Machine Learning</h1>
+<h1 style="margin-bottom:-1em">Visual Intelligence <br> Machines and Minds</h1>
 
 <!-- <h1 >(draft site; unofficial)</h1> -->
 
