@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: 6.790 <br> Machine Learning
-tagline: 6.790 Machine Learning, Fall 2025
-email: 6.790-website@mit.edu
-description: "Graduate Machine Learning Course, MIT EECS, Fall 2025."
+title: CS503 <br> Visual Intelligence <br> Machine and Minds
+tagline: CS503 Visual Intelligence, Spring 2026
+email: efe.tarhan@epfl.ch
+description: "Visual Intelligence Course Webpage, EPFL, Spring 2026."
 # logo: "/assets/images/790-txt.png"
 
 baseurl: "/cs503_website" # the subpath of your site, e.g. /blog
@@ -33,10 +33,10 @@ url: "https://tarhanefe.github.io" # the base hostname & protocol for your site,
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Canvas:
-    - "https://canvas.mit.edu/courses/33927"
-  Piazza:
-    - "https://piazza.com/mit/fall2025/67900"
+  Moodle:
+    - "https://moodle.epfl.ch/course/CS-503"
+  EdStem:
+    - "https://edstem.org/epfl/courses/12345"
 aux_links_new_tab: true
 
 #remote_theme: just-the-docs/just-the-docs
@@ -52,8 +52,8 @@ back_to_top: true
 back_to_top_text: "Back to top"
 nav_next_prev: true
 
-last_edit_timestamp: true
-gh_edit_link: true # show or hide edit this page link
+last_edit_timestamp: false
+gh_edit_link: false # show or hide edit this page link
 gh_edit_link_text: "✏️ Edit this page on GitHub"
 gh_edit_repository: "https://github.com/790gradml/gradML"
 gh_edit_branch: "main" # the branch that your docs is served from
