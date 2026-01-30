@@ -7,11 +7,11 @@ has_toc: false
 ---
 <center>
 <div style="margin-bottom:1.5em">
-<img src="/assets/images/eecslogo.svg" width="12%">
+<img src="/assets/images/epfllogo.svg" width="12%">
 <!-- <img src="/assets/images/790-placeholder.png" width="12%"> -->
 </div>
 
-<img src="/assets/images/790-txt.png" width="12%">
+<!-- <img src="/assets/images/790-txt.png" width="12%"> -->
 
 <h1 style="margin-bottom:-1em">Machine Learning</h1>
 

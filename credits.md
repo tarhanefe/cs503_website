@@ -15,15 +15,3 @@ Special thanks to:
 
 
 for this site's contents and infrastructure.
-
---- 
-This site uses:
-
-- [Hypothesis](https://web.hypothes.is/)
-- [ChatGPT](https://chat.openai.com)
-- [Jekyll](https://jekyllrb.com)
-- [Just the Docs](https://github.com/just-the-docs/just-the-docs)
-- [Just the Class](https://github.com/kevinlin1/just-the-class)
-- [Last Modified At](https://github.com/gjtorikian/jekyll-last-modified-at)
-- [Pandoc](https://pandoc.org/)
-- [WideTim](https://www.widetim.com/)
