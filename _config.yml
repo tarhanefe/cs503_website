@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CS503 <br> VIMM
+title: CS503 <br> Visual Intelligence
 tagline: CS503 Visual Intelligence, Spring 2026
 email: efe.tarhan@epfl.ch
 description: "Visual Intelligence Course Webpage, EPFL, Spring 2026."
