@@ -7,7 +7,7 @@ has_toc: false
 ---
 <center>
 <div style="margin-bottom:1.5em">
-<img src="{{ '/assets/images/epfllogo.svg' | relative_url }}" width="12%">
+<img src="{{ '/assets/images/epfllogo.svg' | relative_url }}" width="24%">
 <!-- <img src="/assets/images/790-placeholder.png" width="12%"> -->
 </div>
 
