@@ -16,9 +16,10 @@ Examples of standout work across recent offerings
 }
 .project-list {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, 260px);
   gap: 1rem;
-  align-items: stretch;
+  align-items: start;
+  justify-content: start;
 }
 .project-card {
   display: flex;
@@ -32,7 +33,8 @@ Examples of standout work across recent offerings
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   transition: transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   border: 1px solid transparent;
-  width: 100%;
+  width: 260px;
+  height: 330px;
 }
 .project-card:hover, .project-card:focus {
   transform: translateY(-3px);
@@ -42,12 +44,12 @@ Examples of standout work across recent offerings
 }
 .project-card .project-title {
   margin: 0;
-  padding: 1rem 1.1rem 0.4rem;
+  padding: 0.9rem 1.1rem 0.4rem;
   font-size: 1.05rem;
 }
 .project-card .project-image {
   width: 100%;
-  height: 200px;
+  height: 150px;
   object-fit: cover; /* crop to fixed size */
   display: block;
 }
@@ -56,16 +58,23 @@ Examples of standout work across recent offerings
   padding: 0 1.1rem 1.2rem;
   color: #4a4f5a;
   font-size: 0.94rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
 }
 
 @media (max-width: 900px) {
   .project-list {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 260px);
   }
 }
 @media (max-width: 640px) {
   .project-list {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .project-card {
+    width: 100%;
   }
   .project-card .project-image {
     width: 100%;
@@ -118,4 +127,3 @@ Examples of standout work across recent offerings
     link="https://example.com/project-3d-recon"
   %}
 </div>
-
