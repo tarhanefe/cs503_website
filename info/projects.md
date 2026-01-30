@@ -53,8 +53,13 @@ Examples of standout work across recent offerings
 }
 .project-card .project-title {
   margin: 0;
-  padding: 0.9rem 1.1rem 0.4rem;
-  font-size: 1.05rem;
+  padding: 0.8rem 1.1rem 0.35rem;
+  font-size: 1.02rem;
+  line-height: 1.25;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
 }
 .project-card .project-image {
   width: 100%;
@@ -64,9 +69,10 @@ Examples of standout work across recent offerings
 }
 .project-card .project-description {
   margin: 0;
-  padding: 0 1.1rem 1.2rem;
+  padding: 0 1.1rem 1rem;
   color: #4a4f5a;
   font-size: 0.94rem;
+  line-height: 1.35;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 4;
