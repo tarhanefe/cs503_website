@@ -118,7 +118,7 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-robust-multimodal" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="/assets/images/projects/robust.png" alt="Robust Multimodal" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler1.png" alt="Robust Multimodal" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Robust Multimodal Retrieval</div>
@@ -136,7 +136,7 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-open-set" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="/assets/images/projects/openset.png" alt="Open Set" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler1.png" alt="Open Set" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Open-Set Scene Detection</div>
@@ -148,7 +148,7 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-human-motion" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="/assets/images/projects/motion.png" alt="Motion Synthesis" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler2.png" alt="Motion Synthesis" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Text-to-Motion Synthesis</div>
@@ -160,7 +160,7 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-3d-recon" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="/assets/images/projects/recon.png" alt="3D Reconstruction" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler3.png" alt="3D Reconstruction" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Few-Shot 3D Reconstruction</div>
@@ -179,7 +179,7 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-open-set" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="/assets/images/projects/openset.png" alt="Open Set" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler1.png" alt="Open Set" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Open-Set Scene Detection</div>
@@ -191,7 +191,7 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-human-motion" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="/assets/images/projects/motion.png" alt="Motion Synthesis" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler2.png" alt="Motion Synthesis" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Text-to-Motion Synthesis</div>
@@ -203,7 +203,7 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-3d-recon" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="/assets/images/projects/recon.png" alt="3D Reconstruction" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler3.png" alt="3D Reconstruction" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Few-Shot 3D Reconstruction</div>
@@ -215,7 +215,7 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-3d-recon" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="/assets/images/projects/recon.png" alt="3D Reconstruction" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler4.png" alt="3D Reconstruction" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Few-Shot 3D Reconstruction</div>
@@ -227,7 +227,7 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-3d-recon" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="/assets/images/projects/recon.png" alt="3D Reconstruction" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler5.png" alt="3D Reconstruction" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Few-Shot 3D Reconstruction</div>
