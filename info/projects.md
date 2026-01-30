@@ -22,9 +22,7 @@ Examples of standout work across recent offerings
   justify-content: start;
 }
 .project-card {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  display: block;
   border-radius: 12px;
   overflow: hidden;
   background: #f8f9fb;
@@ -36,10 +34,21 @@ Examples of standout work across recent offerings
   width: 260px;
   height: 330px;
 }
-.project-card:hover, .project-card:focus {
+.project-card:hover, .project-card:focus-within {
   transform: translateY(-3px);
   box-shadow: 0 12px 28px rgba(0,0,0,0.12);
   border-color: #d7e3ff;
+  outline: none;
+}
+.project-card-link {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+.project-card-link:focus {
   outline: none;
 }
 .project-card .project-title {
