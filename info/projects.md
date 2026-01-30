@@ -15,13 +15,14 @@ Examples of standout work across recent offerings
   margin-bottom: 1.25rem;
 }
 .project-list {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
-  align-items: left;
+  align-items: stretch;
 }
 .project-card {
   display: flex;
+  flex-direction: column;
   align-items: stretch;
   border-radius: 12px;
   overflow: hidden;
@@ -31,7 +32,6 @@ Examples of standout work across recent offerings
   box-shadow: 0 6px 20px rgba(0,0,0,0.08);
   transition: transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   border: 1px solid transparent;
-  max-width: 860px;
   width: 100%;
 }
 .project-card:hover, .project-card:focus {
@@ -40,32 +40,34 @@ Examples of standout work across recent offerings
   border-color: #d7e3ff;
   outline: none;
 }
-.project-card img {
-  width: 170px;
-  height: 130px;
-  object-fit: cover; /* crop to fixed size */
-  display: block;
-  flex-shrink: 0;
-}
-.project-card .body {
-  padding: 1rem 1.1rem 1.2rem;
-  flex: 1 1 auto;
-}
-.project-card h4 {
-  margin: 0 0 0.35rem;
+.project-card .project-title {
+  margin: 0;
+  padding: 1rem 1.1rem 0.4rem;
   font-size: 1.05rem;
 }
-.project-card p {
+.project-card .project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* crop to fixed size */
+  display: block;
+}
+.project-card .project-description {
   margin: 0;
+  padding: 0 1.1rem 1.2rem;
   color: #4a4f5a;
   font-size: 0.94rem;
 }
 
-@media (max-width: 640px) {
-  .project-card {
-    flex-direction: column;
+@media (max-width: 900px) {
+  .project-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-  .project-card img {
+}
+@media (max-width: 640px) {
+  .project-list {
+    grid-template-columns: 1fr;
+  }
+  .project-card .project-image {
     width: 100%;
     height: 180px;
   }
@@ -116,6 +118,4 @@ Examples of standout work across recent offerings
     link="https://example.com/project-3d-recon"
   %}
 </div>
-
-
 
