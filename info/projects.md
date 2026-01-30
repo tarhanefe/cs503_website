@@ -5,20 +5,117 @@ nav_order: 3
 #nav_exclude: true
 
 ---
-# Other recommended reading
 
-- [Ba] [Learning Theory from First Principles](https://www.di.ens.fr/~fbach/ltfp_book.pdf) Bach, 2025.
-- [B] [Pattern Recognition and Machine Learning](https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf), Bishop; Springer, 2006.
-- [B2] [Deep Learning Foundations and Concepts](https://www.bishopbook.com/), Bishop; Bishop, 2024.
-- [HTF] [The Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/), Hastie, Tibshirani, and Friedman; Springer, 2009.
-- [HR] [Patterns, Predictions, and Actions A story about machine learning](https://mlstory.org/) Hardt and Recht; Princeton University Press, 2022.
-- [SB]/[SSS] [Understanding Machine Learning: From Theory to Algorithms](http://www.cs.huji.ac.il/~shais/UnderstandingMachineLearning), Shalev-Shwartz and Ben-David; Cambridge University Press, 2014.
-- [JWHT] [An Introduction to Statistical Learning](https://www.statlearning.com/), James, Witten, Hastie, and Tibshirani; Springer, 2023.
-- [T] [Deep learning theory lecture notes](https://mjt.cs.illinois.edu/dlt/), Matus, Telgarsky; 2021.
-- [PH] [Formal Algorithms for Transformers](https://arxiv.org/abs/2207.09238), Phuong, Hutter; 2022.
+# Selected Projects
+Examples of standout work across recent offerings
 
-All freely accessible (an MIT IP may be required)
+<style>
+.project-year {
+  margin-top: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: left;
+}
+.project-card {
+  display: flex;
+  align-items: stretch;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f8f9fb;
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: transform 0.15s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  border: 1px solid transparent;
+  max-width: 860px;
+  width: 100%;
+}
+.project-card:hover, .project-card:focus {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+  border-color: #d7e3ff;
+  outline: none;
+}
+.project-card img {
+  width: 170px;
+  height: 130px;
+  object-fit: cover; /* crop to fixed size */
+  display: block;
+  flex-shrink: 0;
+}
+.project-card .body {
+  padding: 1rem 1.1rem 1.2rem;
+  flex: 1 1 auto;
+}
+.project-card h4 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+}
+.project-card p {
+  margin: 0;
+  color: #4a4f5a;
+  font-size: 0.94rem;
+}
 
+@media (max-width: 640px) {
+  .project-card {
+    flex-direction: column;
+  }
+  .project-card img {
+    width: 100%;
+    height: 180px;
+  }
+}
+</style>
+
+## 2025
+
+<div class="project-list">
+  {% include project-card.html
+    title="From Pixels to Wireframes: 3D Reconstruction via CLIP-Based Sketch Abstraction"
+    description="This project explores extending sketch abstraction from 2D images to 3D representations by constructing wireframe-like structures using optimized Bézier curves and a constrained Gaussian splatting formulation. By limiting Gaussians to matte, single-color spherical blobs placed along curve paths, the approach yields compact, interpretable, and visually expressive 3D sketches that capture object structure effectively."
+    img="/assets/projects/clipasso3d.png"
+    alt="Preview"
+    link="https://tarhanefe.github.io/CLIPasso3DWebsite/"
+  %}
+  {% include project-card.html
+    title="Robust Multimodal Retrieval"
+    description="Designed a contrastive pretraining recipe that stays accurate under occlusions, boosting zero-shot retrieval on out-of-domain photos."
+    img="/assets/img/projects/robust-multimodal.jpg"
+    alt="Robust multimodal model preview"
+    link="https://example.com/project-robust-multimodal"
+  %}
+</div>
+
+## 2024
+
+<div class="project-list">
+  {% include project-card.html
+    title="Open-Set Scene Detection"
+    description="Introduced uncertainty-aware prompts for vision transformers, improving detection of unseen classes in driving scenes."
+    img="/assets/img/projects/open-set.jpg"
+    alt="Open set detection preview"
+    link="https://example.com/project-open-set"
+  %}
+  {% include project-card.html
+    title="Text-to-Motion Synthesis"
+    description="Built a diffusion model that translates free-form text into physically plausible human motion clips with style control."
+    img="/assets/img/projects/human-motion.jpg"
+    alt="Human motion synthesis preview"
+    link="https://example.com/project-human-motion"
+  %}
+  {% include project-card.html
+    title="Few-Shot 3D Reconstruction"
+    description="Combined NeRF distillation with geometric priors to recover consistent meshes from as few as three posed images."
+    img="/assets/img/projects/3d-recon.jpg"
+    alt="3D reconstruction preview"
+    link="https://example.com/project-3d-recon"
+  %}
+</div>
 
 
 

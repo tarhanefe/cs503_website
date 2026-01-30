@@ -1,0 +1,9 @@
+<a class="project-card" href="{{ include.link }}" target="_blank" rel="noopener">
+  {% if include.img %}
+    <img src="{{ include.img | relative_url }}" alt="{{ include.alt | default: include.title }}">
+  {% endif %}
+  <div class="body">
+    <h4>{{ include.title }}</h4>
+    <p>{{ include.description }}</p>
+  </div>
+</a>
