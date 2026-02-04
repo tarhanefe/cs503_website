@@ -141,9 +141,9 @@ Examples of standout work across recent offerings
     </div>
   </a>
 
-  <a href="https://example.com/project-robust-multimodal" target="_blank" class="project-card">
+  <a href="{{site.baseurl}}/assets/pdfs/zero_shot_mm_vision.pdf" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="{{site.baseurl}}/assets/images/projects/filler2.png" alt="Zero Shot MM" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/zero_shot_mm_vision.png" alt="Zero Shot MM" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Exploring Zero-Shot Translation in Multi-Modal Vision Models</div>
