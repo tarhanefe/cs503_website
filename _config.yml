@@ -33,10 +33,10 @@ url: "https://tarhanefe.github.io" # the base hostname & protocol for your site,
 heading_anchors: true
 permalink: pretty
 aux_links:
-  Moodle:
-    - "https://moodle.epfl.ch/course/CS-503"
-  EdStem:
-    - "https://edstem.org/epfl/courses/12345"
+#  Moodle:
+#    - "https://moodle.epfl.ch/course/CS-503"
+#  EdStem:
+#    - "https://edstem.org/epfl/courses/12345"
 aux_links_new_tab: true
 
 #remote_theme: just-the-docs/just-the-docs
@@ -62,9 +62,9 @@ gh_edit_view_mode: "tree"
 
 # Sidebar external links (rendered as tabs/links in the nav)
 nav_external_links:
-  - title: Home
-    url: "/"
-    hide_icon: true
+  #- title: Home
+  #  url: "/"
+  #  hide_icon: true
 
 search_enabled: false
 
