@@ -175,7 +175,7 @@ Examples of standout work across recent offerings
       <img src="{{site.baseurl}}/assets/images/projects/vision_evolution.png" alt="Vision Evolution" class="project-image">
     </div>
     <div class="project-content">
-      <div class="project-title-text">Vision Evolution: Natural Selection shaped by environment</div>
+      <div class="project-title-text">Vision Evolution: Natural Selection Shaped by Environment</div>
       <div class="project-desc-text">
         This project studies how an agent’s visual perception (number of eyes and field of view) adapts to its environment under energy constraints while learning to gather resources.
       </div>
