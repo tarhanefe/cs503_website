@@ -104,12 +104,24 @@ Examples of standout work across recent offerings
 
 <div class="project-list">
   
+  <a href="{{site.baseurl}}/assets/pdfs/dit_edit.pdf" target="_blank" class="project-card">
+    <div class="project-image-container">
+      <img src="{{site.baseurl}}/assets/images/projects/filler1.png" alt="DiT-Edit" class="project-image">
+    </div>
+    <div class="project-content">
+      <div class="project-title-text">DiT-Edit: An Image Editing Framework for Diffusion Transformers</div>
+      <div class="project-desc-text">
+        A training-free image composition framework for Diffusion Transformers that unifies noise composition, QKV patching, and timestep control to seamlessly insert foreground objects into backgrounds.
+      </div>
+    </div>
+  </a>
+
   <a href="https://tarhanefe.github.io/CLIPasso3DWebsite/" target="_blank" class="project-card">
     <div class="project-image-container">
       <img src="{{site.baseurl}}/assets/images/projects/filler1.png" alt="CLIPasso 3D" class="project-image">
     </div>
     <div class="project-content">
-      <div class="project-title-text">From Pixels to Wireframes</div>
+      <div class="project-title-text">CLIPasso 3D: From Pixels to Wireframes</div>
       <div class="project-desc-text">
         Extending sketch abstraction from 2D to 3D by constructing wireframe-like structures using optimized Bézier curves.
       </div>
@@ -118,16 +130,27 @@ Examples of standout work across recent offerings
 
   <a href="https://example.com/project-robust-multimodal" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="{{site.baseurl}}/assets/images/projects/filler2.png" alt="Robust Multimodal" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/filler2.png" alt="Retinal Implant Simulation" class="project-image">
     </div>
     <div class="project-content">
-      <div class="project-title-text">Robust Multimodal Retrieval</div>
+      <div class="project-title-text">Deep Learning Approach for Image Classification-Optimized Retinal Implant Stimulation</div>
       <div class="project-desc-text">
-        Designed a contrastive pretraining recipe that stays accurate under occlusions, boosting zero-shot retrieval.
+        An end-to-end differentiable pipeline that learns retinal implant stimulation patterns (PRIMA, Argus II) optimized for image classification using percept simulations.
       </div>
     </div>
   </a>
 
+  <a href="https://example.com/project-robust-multimodal" target="_blank" class="project-card">
+    <div class="project-image-container">
+      <img src="{{site.baseurl}}/assets/images/projects/filler2.png" alt="Zero Shot MM" class="project-image">
+    </div>
+    <div class="project-content">
+      <div class="project-title-text">Exploring Zero-Shot Translation in Multi-Modal Vision Models</div>
+      <div class="project-desc-text">
+        An empirical study showing that a large multimodal generative model (4M) can perform zero-shot modality translation without aligned training pairs when sufficient binding modalities exist.
+      </div>
+    </div>
+  </a>
 </div>
 
 ## 2024
