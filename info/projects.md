@@ -158,38 +158,26 @@ Examples of standout work across recent offerings
 
 <div class="project-list">
 
-  <a href="https://example.com/project-open-set" target="_blank" class="project-card">
+  <a href="https://ahmad-jarrar.github.io/cs503-vi-project/" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="{{site.baseurl}}/assets/images/projects/filler1.png" alt="Open Set" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/vision_is_ayn.png" alt="Vision is All You Need" class="project-image">
     </div>
     <div class="project-content">
-      <div class="project-title-text">Open-Set Scene Detection</div>
+      <div class="project-title-text">Vision Is All You Need: A Vision-Based Approach to Dynamics Estimation in Autonomous Navigation</div>
       <div class="project-desc-text">
-        Introduced uncertainty-aware prompts for vision transformers, improving detection of unseen classes in driving scenes.
+        This project investigates using solely visual input for autonomous drone navigation in dynamic environments, training policies that navigate through gates and avoid projectiles based on camera observations.
       </div>
     </div>
   </a>
 
-  <a href="https://example.com/project-human-motion" target="_blank" class="project-card">
+  <a href="{{site.baseurl}}/assets/pdfs/vision_evolution.pdf" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="{{site.baseurl}}/assets/images/projects/filler2.png" alt="Motion Synthesis" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/vision_evolution.png" alt="Vision Evolution" class="project-image">
     </div>
     <div class="project-content">
-      <div class="project-title-text">Text-to-Motion Synthesis</div>
+      <div class="project-title-text">Vision Evolution: Natural Selection shaped by environment</div>
       <div class="project-desc-text">
-        Built a diffusion model that translates free-form text into physically plausible human motion clips with style control.
-      </div>
-    </div>
-  </a>
-
-  <a href="https://example.com/project-3d-recon" target="_blank" class="project-card">
-    <div class="project-image-container">
-      <img src="{{site.baseurl}}/assets/images/projects/filler3.png" alt="3D Reconstruction" class="project-image">
-    </div>
-    <div class="project-content">
-      <div class="project-title-text">Few-Shot 3D Reconstruction</div>
-      <div class="project-desc-text">
-        Combined NeRF distillation with geometric priors to recover consistent meshes from as few as three posed images.
+        This project studies how an agent’s visual perception (number of eyes and field of view) adapts to its environment under energy constraints while learning to gather resources.
       </div>
     </div>
   </a>
