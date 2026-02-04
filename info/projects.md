@@ -106,7 +106,7 @@ Examples of standout work across recent offerings
   
   <a href="{{site.baseurl}}/assets/pdfs/dit_edit.pdf" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="{{site.baseurl}}/assets/images/projects/filler1.png" alt="DiT-Edit" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/dit_edit.png" alt="DiT-Edit" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">DiT-Edit: An Image Editing Framework for Diffusion Transformers</div>
@@ -118,19 +118,20 @@ Examples of standout work across recent offerings
 
   <a href="https://tarhanefe.github.io/CLIPasso3DWebsite/" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="{{site.baseurl}}/assets/images/projects/filler1.png" alt="CLIPasso 3D" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/clipasso3d.png" alt="CLIPasso 3D" class="project-image">
     </div>
     <div class="project-content">
-      <div class="project-title-text">CLIPasso 3D: From Pixels to Wireframes</div>
+      <div class="project-title-text">From Pixels to Wireframes: 3D Reconstruction via CLIP-Based Sketch Abstraction
+      </div>
       <div class="project-desc-text">
         Extending sketch abstraction from 2D to 3D by constructing wireframe-like structures using optimized Bézier curves.
       </div>
     </div>
   </a>
 
-  <a href="https://example.com/project-robust-multimodal" target="_blank" class="project-card">
+  <a href="{{site.baseurl}}/assets/pdfs/retinal_sim.pdf" target="_blank" class="project-card">
     <div class="project-image-container">
-      <img src="{{site.baseurl}}/assets/images/projects/filler2.png" alt="Retinal Implant Simulation" class="project-image">
+      <img src="{{site.baseurl}}/assets/images/projects/retinal_sim.png" alt="Retinal Implant Simulation" class="project-image">
     </div>
     <div class="project-content">
       <div class="project-title-text">Deep Learning Approach for Image Classification-Optimized Retinal Implant Stimulation</div>
