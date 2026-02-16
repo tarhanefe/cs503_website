@@ -24,8 +24,8 @@ email: efe.tarhan@epfl.ch
 description: "Visual Intelligence Course Webpage, EPFL, Spring 2026."
 # logo: "/assets/images/790-txt.png"
 
-baseurl: "/cs503_website" # the subpath of your site, e.g. /blog
-url: "https://tarhanefe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/cs503" # the subpath of your site, e.g. /blog
+url: "https://vilab.epfl.ch" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 # remote_theme: "just-the-docs"
