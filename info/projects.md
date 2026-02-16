@@ -200,7 +200,7 @@ Examples of standout work across recent offerings
 
 </div>
 
-## Example Projects & Inspiration
+## More Example Projects & Inspiration
 
 - [ViZDoom](https://github.com/mwydmuch/ViZDoom#awesome-doom-toolsprojects)
 - [OpenAI Gym Third-Party Environments](https://github.com/openai/gym/blob/master/docs/third_party_environments.md)
