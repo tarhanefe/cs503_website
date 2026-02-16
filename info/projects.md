@@ -182,4 +182,20 @@ Examples of standout work across recent offerings
     </div>
   </a>
 
+
+ ## 2023  
+
+  <a href="https://arvind6599.github.io/PredatorPreyWebsite/" target="_blank" class="project-card">
+    <div class="project-image-container">
+      <img src="{{site.baseurl}}/assets/images/projects/predator_prey.png" alt="Predator-Prey" class="project-image">
+    </div>
+    <div class="project-content">
+      <div class="project-title-text">Hunting for Insights: Investigating Predator-Prey Dynamics through Simulated Vision and Reinforcement Learning
+      </div>
+      <div class="project-desc-text">
+        This study analyzes how vision characteristics shape predator–prey interactions using reinforcement learning in simulated environments. Results show that depth perception benefits predators, while a wide field of view aids prey. The framework also enables further exploration of complex interaction dynamics.
+      </div>
+    </div>
+  </a>
+
 </div>
