@@ -197,4 +197,32 @@ Examples of standout work across recent offerings
       </div>
     </div>
   </a>
+
 </div>
+
+## Example Projects & Inspiration
+
+- [ViZDoom](https://github.com/mwydmuch/ViZDoom#awesome-doom-toolsprojects)
+- [OpenAI Gym Third-Party Environments](https://github.com/openai/gym/blob/master/docs/third_party_environments.md)
+- [DeepMindLab](https://github.com/deepmind/lab#)
+- [Habitat](https://aihabitat.org/tutorial/2020/)
+- [Gibson/iGibson](http://svl.stanford.edu/igibson/docs/)
+- [ThreeDWorld](https://www.threedworld.org/)
+- [AI2THOR Environments](https://ai2thor.allenai.org/)
+- [RL Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo)
+- [Habitat Challenge](https://aihabitat.org/challenge/2021/)
+- [AWS DeepRacer](https://aws.amazon.com/deepracer/)
+- [EmbodiedAI Workshop Challenges](https://embodied-ai.org/#challenges)
+- [ImageNet Generalization](https://arxiv.org/abs/1902.10811)
+- [Metric Learning Reality Check](https://arxiv.org/abs/2003.08505)
+- [Cheating on Visual Kinship Challenges](https://arxiv.org/abs/1809.06200)
+- [Mid-Level Visual Representations](http://perceptual.actor/)
+- [Gibson Environment](http://gibsonenv.stanford.edu/)
+- [Cross-Task Consistency](https://consistency.epfl.ch/)
+- [Cross-Domain Ensembles](https://crossdomain-ensembles.epfl.ch/)
+- [Semantically-Aware Sketching](https://clipasso.github.io/clipasso/)
+- [3D Corruptions / Augmentations](https://3dcommoncorruptions.epfl.ch/)
+- [Multi-Modal / Multi-Task Learning](https://multimae.epfl.ch/)
+- [Long-Horizon Planning](https://palmer.epfl.ch/)
+- [Task Discovery](https://taskdiscovery.epfl.ch/)
+- [Modality-Invariant Visual Odometry](https://embodied-ai.org/papers/2022/17.pdf)
