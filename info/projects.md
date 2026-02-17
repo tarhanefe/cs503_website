@@ -185,6 +185,8 @@ Examples of standout work across recent offerings
 
  ## 2023  
 
+<div class="project-list">
+
   <a href="https://arvind6599.github.io/PredatorPreyWebsite/" target="_blank" class="project-card">
     <div class="project-image-container">
       <img src="{{site.baseurl}}/assets/images/projects/predator_prey.png" alt="Predator-Prey" class="project-image">
@@ -197,7 +199,6 @@ Examples of standout work across recent offerings
       </div>
     </div>
   </a>
-
 </div>
 
 ## More Example Projects & Inspiration
