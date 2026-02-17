@@ -181,9 +181,9 @@ Examples of standout work across recent offerings
       </div>
     </div>
   </a>
+</div>
 
-
- ## 2023  
+## 2023  
 
 <div class="project-list">
 
